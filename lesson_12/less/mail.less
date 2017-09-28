@@ -1,0 +1,21 @@
+.font(@fz: 20px) {
+	font-size: @fz;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+@background: #333;
+
+.header{
+	.font(15);
+}
+
+.section-header{
+	.font;
+	color: @background;
+	background-color: @background;
+}
+
+span{
+	.font();
+}
