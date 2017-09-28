@@ -1,4 +1,4 @@
 # Денис Колочкин
 Мои домашние задания
 
-[Урок 12](https://kolochkin.github.io/lesson_12/)- Работа с репозиторием GitHub
+[Урок 12](https://kolochkin.github.io/lesson_12/) - Работа с репозиторием GitHub
