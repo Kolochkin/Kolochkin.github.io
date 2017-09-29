@@ -10,3 +10,4 @@
 [Урок 9](Kolochkin.github.io/ДЗ_9/src/) - Вертска при помощи Bootstrap  
 [Урок 12](https://kolochkin.github.io/lesson_12/) - Работа с репозиторием GitHub  
 [Урок 13](https://kolochkin.github.io/Lesson_13/) - Адаптивная верстка  
+[Практика. Часть 1](Kolochkin.github.io/Практика_1/project/src/) - Подготовка файлов. Верстка шапки сайта  
