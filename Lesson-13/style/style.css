@@ -1,0 +1,76 @@
+.container{
+	width: 320px;
+	height: 370px;
+	border: 1px solid #cfdede;
+	margin-top: 111px;
+	text-align: center;
+}
+
+.header{
+	width: 150px;
+	height: 25px;
+	background-color: #01b3b3;
+	margin-top: -20px;
+	margin-left: 13px;
+}
+
+.header h2{
+	color: #ffffff;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 27px;
+}
+
+.form{
+	margin-top: 30px;
+}
+
+.mail{
+	margin-left: -215px;
+	margin-top: 32px;
+}
+
+.pass{
+	margin-left: -143px;
+	margin-top: -4px;
+}
+
+.conf_pass{
+	margin-left: -145px;
+}
+
+.form form{
+	margin-top: 20px;
+}
+
+.form input{
+	border: 1px solid #cfdede;
+	width: 260px;
+	height: 30px;
+	font-size: 12px;
+}
+
+.form p{
+	font-weight: 600;
+	font-size: 12px;
+}
+
+span{
+	color: #01b3b3;
+}
+
+.btn{
+	margin-top: 36px;
+	background-color: #01c5c5;
+	width: 260px;
+	height: 43px;
+}
+
+.btn p{
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 30px;
+}
