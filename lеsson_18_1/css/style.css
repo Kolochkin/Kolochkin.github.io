@@ -1,0 +1,63 @@
+body {
+	background-image: url("../img/background.jpg");
+}
+
+.login {
+	display: block;
+	height: 60px;
+	width: 480px;
+	margin-top: 67px;
+	margin-left: 40px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.pass {
+	display: block;
+	height: 60px;
+	width: 480px;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.in {
+	width: 628px;
+	height: 405px;
+	border: 20px solid #03a0d3;
+	border-radius: 10px;
+	background-color: #000;
+}
+
+.forget {
+	margin-left: 40px;
+	color: red;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.forget:hover {
+	text-decoration: none;
+}
+
+.remember {
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.p {
+	color: #6f6d6d;
+	font-size: 15px;
+	display: inline-block;
+}
+
+.btn {
+	margin-left: 480px;
+	margin-top: -8px;
+	width: 130px;
+	height: 40px;
+	background-color: #8e0b01;
+	color: #ffffff;
+}
