@@ -1,6 +1,14 @@
 body {
 	background-image: url("../img/background.jpg");
 }
+input {
+	background-color: #1b1a1a;
+	border: none;
+}
+
+.main {
+	padding-top: 100px;
+}
 
 .login {
 	display: block;
@@ -10,6 +18,10 @@ body {
 	margin-left: 40px;
 	font-size: 20px;
 	padding-left: 20px;
+}
+input::placeholder { 
+	color: #fff;
+	font-size: 20px;
 }
 
 .pass {
@@ -27,7 +39,7 @@ body {
 	width: 628px;
 	height: 405px;
 	border: 20px solid #03a0d3;
-	border-radius: 10px;
+	border-radius: 20px;
 	background-color: #000;
 }
 
@@ -50,7 +62,9 @@ body {
 .p {
 	color: #6f6d6d;
 	font-size: 15px;
-	display: inline-block;
+	display: block;
+	margin-left: 20px;
+	margin-top: -18px;
 }
 
 .btn {
@@ -64,6 +78,43 @@ body {
 
 .nav-tabs {
 	border: none;
+	color: #fff;
 }
+ li.active{
+ 	background-color: #03a0d3;
+ }
+ 
+.tab-content {
+	background-color: #03a0d3;
+
+}
+.src {
+	width: 150px;
+	background-color: #fff;
+	margin-top: 5px;
+	border:none;
+	font-size: 15px;
+	width: 200px;
+	text-align: center;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{ 
+	background-color: #03a0d3 ;
+	border: none;
+	width: 100px;
+	color: #fff;
+	font-size: 20px;
+ }
+
+ .nav-tabs>li{
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: -2px;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+
 
 
