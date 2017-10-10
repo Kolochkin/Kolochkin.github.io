@@ -61,3 +61,9 @@ body {
 	background-color: #8e0b01;
 	color: #ffffff;
 }
+
+.nav-tabs {
+	border: none;
+}
+
+
