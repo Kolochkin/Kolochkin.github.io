@@ -1,0 +1,138 @@
+body {
+	background-image: url("../img/background.jpg");
+	height: 100%;
+	width: 100%;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+input {
+	background-color: #1b1a1a;
+	border: none;
+}
+.block {
+	display: inline-block;
+	position: absolute;
+	top: 50%;	
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.login, .mail {
+	display: block;
+	height: 60px;
+	width: 480px;
+	margin-top: 67px;
+	margin-left: 40px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+input::placeholder { 
+	color: #fff;
+	font-size: 20px;
+}
+
+.pass, .p1, .p2 {
+	display: block;
+	height: 60px;
+	width: 480px;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.in, .in2 {
+	width: 628px;
+	height: 405px;
+	border: 20px solid #03a0d3;
+	border-radius: 20px;
+	background-color: #000;
+}
+
+.forget {
+	margin-left: 40px;
+	color: red;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.forget:hover {
+	text-decoration: none;
+}
+
+.remember {
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.p {
+	color: #6f6d6d;
+	font-size: 15px;
+	display: block;
+	margin-left: 20px;
+	margin-top: -18px;
+}
+
+.btn, .but {
+	margin-left: 480px;
+	margin-top: -7px;
+	width: 130px;
+	height: 40px;
+	background-color: #9d1002;
+	color: #ffffff;
+	border: none;
+}
+
+.nav-tabs {
+	border: none;
+	color: #fff;
+}
+ li.active{
+ 	background-color: #03a0d3;
+ }
+ 
+.tab-content {
+	background-color: #03a0d3;
+
+}
+.src {
+	background-color: #fff;
+	margin-top: 21px;
+	border:none;
+	font-size: 15px;
+	width: 200px;
+	text-align: center;
+	margin-right:20px;
+}
+.src1 {
+	background-color: #fff;
+	width: 100px;
+	text-align: center;
+	margin-top: 21px;
+	margin-right: 20px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{ 
+	background-color: #03a0d3 ;
+	border: none;
+	width: 100px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+ }
+
+.nav-tabs>li>a:hover {
+	background: transparent;
+}
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -5px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+
